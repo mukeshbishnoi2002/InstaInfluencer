@@ -1,26 +1,36 @@
-html,
-body {
+*{
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+.nav .hero{
+  width: 90%;
+  margin: auto;
+}
+/* ============================================================================ */
+/* ============================== nav bar ============================================== */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9vh;
+}
+.nav h2{
+  font-size: 30px;
+  font-weight: 900;
+}
+.nav li{
+  list-style: none;
+  display: inline-block;
+  font-weight: 600;
+  padding: 7px 14px;
+  font-size: 17px;
+}
+/* ============================== nav bar End ============================================== */
+/* ============================== Hero ============================================== */
+.hero{
+  
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+/* ============================== Hero End ============================================== */
