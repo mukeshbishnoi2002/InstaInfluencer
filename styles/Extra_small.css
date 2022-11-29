@@ -1,0 +1,36 @@
+@media screen and (max-width:500px){
+        /* ============================== Hero ============================================== */
+
+        .hero_content {
+            gap: 15px;
+        }
+    
+        .hero_content h1 {
+            font-size: 25px;
+            line-height: 65px;
+        }
+    
+        .hero_content p {
+            line-height: 22px;
+            font-size: 14px;
+            letter-spacing: 0.7px;
+        }
+    
+        .hero_content input {
+            width: 320px;
+        }
+        .hero_im{
+            height: 500px !important;
+        }
+        .hero_content button {
+            width: 180px;
+        }
+        .hero_bg::after, .hero_bg::before{
+           
+           display: none;
+          
+          }
+        
+    
+        /* ============================== Hero End ============================================== */
+}

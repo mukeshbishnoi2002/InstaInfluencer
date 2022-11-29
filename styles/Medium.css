@@ -1,0 +1,72 @@
+@media screen and (max-width:992px) {
+
+    /* ============================== nav bar ============================================== */
+    .nav ul li {
+        display: none;
+    }
+
+    /* ============================== nav bar End ============================================== */
+
+    /* ============================== Hero ============================================== */
+
+    .hero {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    .hero_bg {
+        margin-top: 35px !important;
+        background-size: 500px !important;
+        
+    }
+    .hero_im{
+        width: 350px;
+        height: 500px !important;
+        padding-top: 0px !important;
+    }
+    .hero_bg::after{
+       
+        left: 87px;
+        bottom: 0;
+      
+      }
+      .hero_bg::before{
+        right: 100px;
+        bottom: 0;
+      
+      }
+
+    .hero_content {
+        gap: 20px;
+    }
+
+    .hero_content h1 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+
+    .hero_content p {
+        line-height: 25px;
+        font-size: 15px;
+        letter-spacing: 0.8px;
+    }
+
+    .hero_im {
+        padding-top: 50px;
+    }
+
+    .hero_content input {
+        width: 300px !important;
+        padding: 15px 22px;
+        border-top-right-radius: 0px;
+
+    }
+
+    .hero_content button {
+        width: 160px !important;
+        font-size: 13px;
+        padding: 16px 22px;
+    }
+
+    /* ============================== Hero End ============================================== */
+}

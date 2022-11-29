@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px) {
+    /* ============================== Hero ============================================== */
+
+    .hero {
+        grid-template-columns: 45% 55%;
+    }
+
+    .hero_content {
+        gap: 20px;
+    }
+
+    .hero_content h1 {
+        /* font-size: 55px; */
+        line-height: 70px;
+    }
+
+    .hero_content p {
+        line-height: 25px;
+        font-size: 15px;
+        letter-spacing: 0.8px;
+    }
+
+    .hero_im {
+        padding-top: 50px;
+    }
+
+    .hero_content input,
+    .hero_content button {
+        width: 80%;
+  border-top-right-radius: 40px;
+  margin-top: 20px;
+
+
+    }
+
+    /* ============================== Hero End ============================================== */
+
+}
