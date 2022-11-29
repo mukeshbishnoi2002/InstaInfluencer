@@ -10,7 +10,6 @@
     }
 
     .hero_content h1 {
-        /* font-size: 55px; */
         line-height: 70px;
     }
 
@@ -34,5 +33,7 @@
     }
 
     /* ============================== Hero End ============================================== */
-
+    .cards_background_effect{
+        display: none;
+    }
 }

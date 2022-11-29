@@ -14,30 +14,31 @@
         text-align: center;
     }
 
+    .hero_content {
+        width: 470px;
+        margin: auto;
+        gap: 20px;
+    }
+
     .hero_bg {
         margin-top: 35px !important;
         background-size: 500px !important;
-        
     }
-    .hero_im{
-        width: 350px;
-        height: 500px !important;
+
+    .hero_im {
+        width: 400px;
+        height: 450px !important;
         padding-top: 0px !important;
     }
-    .hero_bg::after{
-       
+
+    .hero_bg::after {
         left: 87px;
         bottom: 0;
-      
-      }
-      .hero_bg::before{
-        right: 100px;
-        bottom: 0;
-      
-      }
+    }
 
-    .hero_content {
-        gap: 20px;
+    .hero_bg::before {
+        right: 87px;
+        bottom: 0;
     }
 
     .hero_content h1 {
@@ -59,7 +60,6 @@
         width: 300px !important;
         padding: 15px 22px;
         border-top-right-radius: 0px;
-
     }
 
     .hero_content button {
@@ -69,4 +69,46 @@
     }
 
     /* ============================== Hero End ============================================== */
+
+/* ==============================Influencer_info  ============================================== */
+.influencer_info_heading{
+    font-size: 30px;
+    
+    width: max(50%, 580px);
+    line-height: 41px;
+  
+  }
+.influencer_card{
+    gap: 20px;
+      grid-template-columns :1fr 1fr;
+  }
+  .influencer_info{
+    width: 80%;
+  }
+  .card{
+    padding: 60px 30px;
+    
+    }
+  .suscriber{
+    font-size: 36px;
+  }
+  .platform{
+      font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .dec{
+ font-size: 15px ;
+  }
+.cards_background_effect{
+    display: block;
+    right: -11.5%;
+    top: 11%;
+  
+  }
+
+
+/* ==============================Influencer_info End ============================================== */
+
+
+
 }

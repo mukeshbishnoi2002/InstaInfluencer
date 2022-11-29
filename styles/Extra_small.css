@@ -1,30 +1,29 @@
 @media screen and (max-width:500px){
         /* ============================== Hero ============================================== */
-
-        .hero_content {
-            gap: 15px;
+       .nav h2{
+        font-size: 27px !important;
+       }
+        .hero_content{
+            width:100%;
+            margin: auto;
+            gap: 20px;
+           }
+           .hero_content h1 {
+            font-size: 27px;
+            line-height: 40px;
         }
     
-        .hero_content h1 {
-            font-size: 25px;
-            line-height: 65px;
-        }
-    
-        .hero_content p {
-            line-height: 22px;
-            font-size: 14px;
-            letter-spacing: 0.7px;
-        }
-    
-        .hero_content input {
-            width: 320px;
+        .hero_content input, .hero_content button  {
+            width: 100% !important;
+                border-top-right-radius:40px ;
         }
         .hero_im{
-            height: 500px !important;
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover;
+            overflow: hidden;
         }
-        .hero_content button {
-            width: 180px;
-        }
+     
         .hero_bg::after, .hero_bg::before{
            
            display: none;

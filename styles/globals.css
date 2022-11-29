@@ -12,6 +12,7 @@
   width: 92%;
   margin: auto;
 }
+
 /* ============================================================================ */
 /* ============================== nav bar ============================================== */
 .nav{
@@ -20,6 +21,7 @@
   align-items: center;
   height: 9vh;
   padding: 35px 0;
+
 }
 .nav h2{
   font-size: 30px;
@@ -42,7 +44,6 @@
 .hero{
   display: grid;
   grid-template-columns: 40% 60%;
-  height: 105vh;
   align-items: center;
   margin-top: 20px;
 
@@ -117,3 +118,98 @@
 }
 
 /* ============================== Hero End ============================================== */
+/* ==============================Influencer_info  ============================================== */
+
+
+.influencer_info{
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  width: 88%;
+  margin: auto;
+}
+.influencer{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f9f9f9;
+}
+.what_do{
+  color: #ff364a;
+  margin-bottom: 20px;
+}
+.influencer_info_heading{
+  font-size: 36px;
+  margin-top: 20px;
+  width: max(50%, 700px);
+  line-height: 45px;
+  font-family:Poppins;
+  margin: auto;
+  border: 1px solid red;
+}
+.influencer_card{
+  display: grid;
+  grid-template-columns :1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 50px;
+  align-items: center;
+  color: #666;
+}
+.card{
+padding: 80px 40px;
+border-top-right-radius: 80px;
+position: relative;
+transition:0.5s;
+z-index: 1;
+background-color: white;
+box-shadow: 3px 5px 25px 0 rgb(0 0 0 / 10%);
+}
+.effect{
+  width: 100%;
+  position: absolute;
+height: 5px;
+background: linear-gradient(to left bottom,#ee0979,#fc1c62,#ff364a,#ff512f,#ff6a00);
+left: 0;
+bottom: 0;
+z-index: -1;
+transition:0.5s
+}
+.card:hover .effect{
+  height: 100%;
+}
+.card:hover{
+  border-top-right-radius: 0px;
+  color: white;
+}
+.card:hover .suscriber{
+  color: white;
+}
+.suscriber{
+  font-size: 40px;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 10px;
+  transition: 0.5s;
+
+}
+.platform{
+    font-size: 22px;
+    font-style: italic;
+    letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.card span{
+  letter-spacing: 1px;
+}
+.dec{
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.cards_background_effect{
+  position: absolute;
+  right: -6.5%;
+  top: 15%;
+
+}
+
+/* ==============================Influencer_info End ============================================== */
