@@ -1,0 +1,42 @@
+@media screen and (max-width:600px){
+     /* ==============================Influencer_info  ============================================== */
+.influencer_info_heading{
+    font-size: 21px;
+    
+    width: max(50%, 400px);
+    line-height: 41px;
+  
+  }
+
+  .influencer_card{
+ 
+    grid-template-columns : 1fr;
+    gap: 20px;
+
+}
+
+  .card{
+    padding: 40px 10px;
+    
+    }
+  .suscriber{
+    font-size: 28px;
+  }
+  .platform{
+      font-size: 17px;
+    margin-bottom: 15px;
+  }
+  .card span{
+    font-size: 15px !important;
+  }
+  .dec{
+ font-size: 14px ;
+  }
+.cards_background_effect{
+    display: none;
+  
+  }
+
+
+/* ==============================Influencer_info End ============================================== */
+}
