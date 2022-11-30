@@ -10,14 +10,15 @@ function Influencer_info() {
      <div className='influencer_card'>
        {
          influencer_information.map((items, index) => {
-           const { id, suscriber, platform, icon, influencer_nanme, dec } = items;
+           const { id, suscriber, platform, icon, influencer_nanme, dec, color } = items;
            return (
              <div className='card' key={id}>
              
                <p className='suscriber'>{suscriber}K</p>
                <p className='platform'>{platform} followers</p>
-               <i class={icon}></i>
+               <i className={icon} style={{color:color}}></i>
                <span> @{influencer_nanme}</span>
+               <hr className='line_of_card'/>
                <p className='dec'>{dec}</p>
                <div className='effect'></div>
              </div>

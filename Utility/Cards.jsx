@@ -5,6 +5,7 @@ export const influencer_information = [
                                         platform:"Instagram",
                                         icon:"fa-brands fa-instagram",
                                         influencer_nanme:"alikamaya",
+                                        color:"#e1306c",
                                         dec:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
                                     },
                                     {
@@ -13,6 +14,7 @@ export const influencer_information = [
                                         platform:"Twitter",
                                         icon:"fa-brands fa-twitter",
                                         influencer_nanme:"alikamaya",
+                                        color:" #1da1f2",
                                         dec:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
                                     },
                                     {
@@ -21,6 +23,7 @@ export const influencer_information = [
                                         platform:"YouTube",
                                         icon:"fa-brands fa-youtube",
                                         influencer_nanme:"alikamaya",
+                                        color:"red",
                                         dec:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
                                     },
 ];

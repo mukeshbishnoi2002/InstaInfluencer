@@ -26,14 +26,60 @@
     .hero_content input,
     .hero_content button {
         width: 80%;
-  border-top-right-radius: 40px;
-  margin-top: 20px;
-
-
+        border-top-right-radius: 40px;
+        margin-top: 20px;
     }
 
     /* ============================== Hero End ============================================== */
-    .cards_background_effect{
+    .cards_background_effect {
         display: none;
     }
+
+    /* ==============================Influencer_about_me ============================================== */
+    .Influencer_about_me {
+        gap: 30px;
+    }
+
+    .insta-about {
+        width: 380px;
+        height: 320px;
+    }
+
+    .insta-about-shape1 {
+        display: none;
+    }
+
+    .insta-about-shape2 {
+        right: 13%;
+    }
+
+    .Influencer_about_me_card_two {
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+    .Influencer_about_me_card_two h1 {
+        font-size: 30px;
+    }
+
+    .Influencer_about_me_card_two p:nth-child(3) {
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    .Influencer_about_me_card_two button {
+        padding: 11px 26px;
+        font-size: 16px;
+    }
+
+    .Influencer_about_me_card_two span a {
+        padding-bottom: 5px;
+        font-size: 16.5px;
+    }
+
+
+    /* ==============================Influencer_about_me End ============================================== */
+
+
 }

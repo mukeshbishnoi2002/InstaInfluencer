@@ -33,13 +33,41 @@
     
         /* ============================== Hero End ============================================== */
      /* ==============================Influencer_info  ============================================== */
+     .what_do{
+        font-size: 14px !important;
+     }
      .influencer_info_heading{
-        font-size: 18px !important;
-        
-        width: 92% !important;
+        font-size: 16px !important;
+        width: 99% !important;
         line-height: 30px !important;
-      
+      }
+      .influencer_card{
+        margin-top: 35px !important;
       }
      /* ==============================Influencer_info End ============================================== */
+    /* ==============================Influencer_about_me ============================================== */
+    .Influencer_about_me_card_two{
+      width: 100%;
+      margin: auto;
+    }
+    
+.Influencer_about_me_card_two h1 {
+  font-size: 20px;
+}
+.Influencer_about_me_card_two p:nth-child(3) {
+ 
+  font-size: 14px;
+  line-height: 26px;
+}
+.Influencer_about_me_card_two button {
+  padding: 7px 18px;
+  font-size: 15px;
+}
+
+.Influencer_about_me_card_two span a {
+  
+  font-size: 14.5px;
+}
+    /* ==============================Influencer_about_me End ============================================== */
 
 }
