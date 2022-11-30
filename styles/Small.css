@@ -38,7 +38,7 @@
 
     /* ==============================Influencer_info  ============================================== */
 .influencer_info_heading{
-    font-size: 25px;
+    font-size: 25px !important;
     
     width: max(50%, 500px);
     line-height: 41px;
@@ -71,7 +71,14 @@
     display: none;
   
   }
-
+  .influencer_info_heading_p{
+    font-size: 16px;
+    width: 500px;
+    margin: auto;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    margin-top: 17px;
+  }
 
 /* ==============================Influencer_info End ============================================== */
     /* ==============================Influencer_about_me ============================================== */

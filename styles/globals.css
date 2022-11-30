@@ -216,6 +216,14 @@ transition:0.5s
   top: 15%;
 
 }
+.influencer_info_heading_p{
+  font-size: 17px;
+  width: 600px;
+  margin: auto;
+  line-height: 30px;
+  letter-spacing: 0.8px;
+  margin-top: 20px;
+}
 
 /* ==============================Influencer_info End ============================================== */
 /* ==============================Influencer_about_me ============================================== */

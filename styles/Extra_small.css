@@ -37,12 +37,20 @@
         font-size: 14px !important;
      }
      .influencer_info_heading{
-        font-size: 16px !important;
+        font-size: 21px !important;
         width: 99% !important;
         line-height: 30px !important;
       }
       .influencer_card{
         margin-top: 35px !important;
+      }
+      .influencer_info_heading_p{
+        font-size: 14px !important;
+        width:100% !important;
+       
+        line-height: 25px;
+        letter-spacing: 0.8px;
+        margin-top: 14px;
       }
      /* ==============================Influencer_info End ============================================== */
     /* ==============================Influencer_about_me ============================================== */
