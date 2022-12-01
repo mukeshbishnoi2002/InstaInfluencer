@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Cardreuse() {
+function Cardreuse({ id, suscriber, platform, icon, influencer_name, dec, color}) {
  
     
            return (

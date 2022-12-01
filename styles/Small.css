@@ -71,14 +71,7 @@
     display: none;
   
   }
-  .influencer_info_heading_p{
-    font-size: 16px;
-    width: 500px;
-    margin: auto;
-    line-height: 28px;
-    letter-spacing: 0.8px;
-    margin-top: 17px;
-  }
+
 
 /* ==============================Influencer_info End ============================================== */
     /* ==============================Influencer_about_me ============================================== */
@@ -114,5 +107,15 @@ display: none;
   font-size: 15.5px;
 }
     /* ==============================Influencer_about_me End ============================================== */
+    /* ==============================Influencer_info ============================================== */
+    .social_statistics_heading_p{
+      font-size: 16px;
+      width: 500px;
+      margin: auto;
+      line-height: 28px;
+      letter-spacing: 0.8px;
+      margin-top: 17px;
+    }
+/* ==============================Influencer_info End ============================================== */
 
 }

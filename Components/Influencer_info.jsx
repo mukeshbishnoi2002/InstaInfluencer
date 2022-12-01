@@ -13,7 +13,7 @@ function Influencer_info() {
             influencer_information.map((items, index) => {
               const { id, suscriber, platform, icon, influencer_name, dec, color } = items;
               return (
-                <Cardreuse id={id} key={id} suscriber={suscriber} platform={platform} icon={icon} influencer_name={influencer_name} dec={dec} color={color} />
+                <Cardreuse key={id} suscriber={suscriber} platform={platform} icon={icon} influencer_name={influencer_name} dec={dec} color={color} />
               )
             })
           }

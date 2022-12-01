@@ -130,7 +130,7 @@ body{
   width: 88%;
   margin: auto;
 }
-.influencer{
+.influencer, .social_statistics{
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -216,14 +216,7 @@ transition:0.5s
   top: 15%;
 
 }
-.influencer_info_heading_p{
-  font-size: 17px;
-  width: 600px;
-  margin: auto;
-  line-height: 30px;
-  letter-spacing: 0.8px;
-  margin-top: 20px;
-}
+
 
 /* ==============================Influencer_info End ============================================== */
 /* ==============================Influencer_about_me ============================================== */
@@ -327,3 +320,13 @@ letter-spacing: 0.5px;
 
 
 /* ==============================Influencer_about_me End ============================================== */
+/* ==============================Influencer_info ============================================== */
+.social_statistics_heading_p{
+  font-size: 17px;
+  width: 600px;
+  margin: auto;
+  line-height: 30px;
+  letter-spacing: 0.8px;
+  margin-top: 20px;
+}
+/* ==============================Influencer_info End ============================================== */

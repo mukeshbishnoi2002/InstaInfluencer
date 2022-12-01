@@ -36,14 +36,17 @@
     display: none;
   
   }
-  .influencer_info_heading_p{
-    font-size: 15px;
-    width: 400px;
-    margin: auto;
-    line-height: 25px;
-    letter-spacing: 0.8px;
-    margin-top: 14px;
-  }
+
+/* ==============================Influencer_info End ============================================== */
+/* ==============================Influencer_info ============================================== */
+.social_statistics_heading_p{
+  font-size: 15px;
+  width: 400px;
+  margin: auto;
+  line-height: 25px;
+  letter-spacing: 0.8px;
+  margin-top: 14px;
+}
 
 /* ==============================Influencer_info End ============================================== */
 }
