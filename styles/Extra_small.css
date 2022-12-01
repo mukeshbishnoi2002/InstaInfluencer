@@ -1,84 +1,154 @@
-@media screen and (max-width:500px){
-        /* ============================== Hero ============================================== */
-       .nav h2{
-        font-size: 27px !important;
-       }
-        .hero_content{
-            width:100%;
-            margin: auto;
-            gap: 20px;
-           }
-           .hero_content h1 {
-            font-size: 27px;
-            line-height: 40px;
-        }
-    
-        .hero_content input, .hero_content button  {
-            width: 100% !important;
-                border-top-right-radius:40px ;
-        }
-        .hero_im{
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover;
-            overflow: hidden;
-        }
-     
-        .hero_bg::after, .hero_bg::before{
-           
-           display: none;
-          
-          }
-        
-    
-        /* ============================== Hero End ============================================== */
-     /* ==============================Influencer_info  ============================================== */
-     .what_do{
-        font-size: 14px !important;
-     }
-     .influencer_info_heading{
-        font-size: 21px !important;
-        width: 99% !important;
-        line-height: 30px !important;
-      }
-      .influencer_card{
-        margin-top: 35px !important;
-      }
-   
-     /* ==============================Influencer_info End ============================================== */
-    /* ==============================Influencer_about_me ============================================== */
-    .Influencer_about_me_card_two{
-      width: 100%;
-      margin: auto;
-    }
-    
-.Influencer_about_me_card_two h1 {
-  font-size: 20px;
-}
-.Influencer_about_me_card_two p:nth-child(3) {
- 
-  font-size: 14px;
-  line-height: 26px;
-}
-.Influencer_about_me_card_two button {
-  padding: 7px 18px;
-  font-size: 15px;
+@media screen and (max-width:500px) {
+
+  /* ============================== Hero ============================================== */
+  .nav h2 {
+    font-size: 27px !important;
+  }
+
+  .hero_content {
+    width: 100%;
+    margin: auto;
+    gap: 20px;
+  }
+
+  .hero_content h1 {
+    font-size: 27px;
+    line-height: 40px;
+  }
+
+  .hero_content input,
+  .hero_content button {
+    width: 100% !important;
+    border-top-right-radius: 40px;
+  }
+
+  .hero_im {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .hero_bg::after,
+  .hero_bg::before {
+    display: none;
+  }
+
+  /* ============================== Hero End ============================================== */
+  /* ==============================Influencer_info  ============================================== */
+  .what_do {
+    font-size: 14px !important;
+  }
+
+  .influencer_info_heading,
+  .social_statistics_heading {
+    font-size: 21px !important;
+    width: 99% !important;
+    line-height: 30px !important;
+  }
+
+  .influencer_card,
+  .social_statistics_card {
+    margin-top: 35px !important;
+  }
+
+  /* ==============================Influencer_info End ============================================== */
+  /* ==============================Influencer_about_me ============================================== */
+  .Influencer_about_me {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .Influencer_about_me_card_two {
+    width: 100%;
+    margin: auto;
+  }
+
+  .Influencer_about_me_card_two h1 {
+    font-size: 20px;
+  }
+
+  .Influencer_about_me_card_two p:nth-child(3) {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .Influencer_about_me_card_two button {
+    padding: 7px 18px;
+    font-size: 15px;
+  }
+
+  .Influencer_about_me_card_two span a {
+    font-size: 14.5px;
+  }
+
+  /* ==============================Influencer_about_me End ============================================== */
+  /* ==============================social_statistics ============================================== */
+  .social_statistics_heading_p {
+    font-size: 14px !important;
+    width: 100% !important;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+    margin-top: 14px;
+  }
+
+  /* ==============================social_statistics End ============================================== */
+/* ==============================audience============================================== */
+.audience_card_first{
+  gap:30px ;
+  grid-template-columns:1fr;
 }
 
-.Influencer_about_me_card_two span a {
-  
-  font-size: 14.5px;
+.audience_card_first_image_one,.audience_card_first_image_two{
+  width: 100%;
+  height: 340px;
 }
-    /* ==============================Influencer_about_me End ============================================== */
-    /* ==============================Influencer_info ============================================== */
-    .social_statistics_heading_p{
-      font-size: 14px !important;
-      width:100% !important;
-     
-      line-height: 25px;
-      letter-spacing: 0.8px;
-      margin-top: 14px;
-    }
-/* ==============================Influencer_info End ============================================== */
+.audience_card_first_image_three{
+  width: 100%;
+   height:220px ;
+  
+}
+.audience_card_second_inner_card,.instgram_audience_inner_card{
+  grid-template-columns: 1fr;
+}
+.influencer_name_heading{
+  font-size: 20px;
+}
+.instagram_audience_heading,.instagram_collaboration_heading{
+  font-size: 14px;
+}
+.percent{
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.diff_style{
+  font-size: 23px;
+}
+.influence_margin{
+margin-top: 10px;
+}
+.instagram_collaboration_image_one, .instagram_collaboration_image_two{
+  width:90%;
+  height: 230px;
+  margin: auto;
+}
+.collaboration_name{
+  font-size: 16px;
+}
+.collaboration_dec{
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 22px;
+ }
+ .audience_card_second_inner_card_two{
+  margin-top:20px;
+ }
+
+
+
+
+
+/* ==============================audience End ============================================== */
 
 }

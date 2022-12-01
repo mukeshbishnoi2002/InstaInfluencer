@@ -5,7 +5,6 @@ function Cardreuse({ id, suscriber, platform, icon, influencer_name, dec, color}
     
            return (
              <div className='card' key={id}>
-             
                <p className='suscriber'>{suscriber}K</p>
                <p className='platform'>{platform} followers</p>
                <i className={icon} style={{color:color}}></i>
