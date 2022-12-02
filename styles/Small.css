@@ -171,6 +171,10 @@
  }
 /* ==============================audience End ============================================== */
 /* ==============================trusted_partners ============================================== */
+.trusted_partners {
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
 .trusted_partners_heading {
   width: 470px;
 }
@@ -195,4 +199,21 @@
 }
 
 /* ==============================trusted_partners End ============================================== */
+/* ============================== Showreel ============================================== */
+
+.showreel_card_first_inner{
+  width: 455px;
+  margin: auto;
+}
+.showreel-tag, .showreel_card_first_inner p {
+  font-size: 15px;
+}
+.showreel_card_first_inner h1 {
+  font-size: 21px;
+}
+.video-img{
+  width: 458px;
+  height: 255px;
+}
+/* ============================== Showreel End ============================================== */
 }

@@ -6,6 +6,8 @@ import Influencer_about_me from './Influencer_about_me';
 import Social_statistics from './Social_statistics'
 import Audience from './Audience'
 import Trusted_partners from './Trusted_partners'
+import Showreel from './Showreel'
+import Build_business from './Build_business'
 
 function Home() {
   return (
@@ -17,6 +19,8 @@ function Home() {
         <Social_statistics />
         <Audience />
         <Trusted_partners />
+        <Showreel />
+        <Build_business />
    </>
   )
 }

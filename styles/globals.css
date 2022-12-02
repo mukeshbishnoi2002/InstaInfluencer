@@ -484,7 +484,6 @@ body {
 .trusted_partners {
   width: 95%;
   margin: auto;
-  border: 1px solid red;
   text-align: center;
   margin-bottom: 70px;
   padding: 50px 0;
@@ -523,6 +522,68 @@ body {
   border-top-right-radius: 50px;
   background-color: white;
 }
-
-
 /* ==============================trusted_partners End ============================================== */
+/* ==============================Showreel ============================================== */
+.show{
+  width: 100%;
+  background-color: white;
+}
+.showreel{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin:auto;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.showreel-tag{
+  color:#ff512f;
+}
+.showreel_card_first_inner{
+  width: 400px;
+}
+.showreel_card_first_inner h1{
+font-size: 32px;
+  font-family: Poppins;
+  margin-top: 10px;
+}
+.showreel_card_first_inner p{
+  font-size: 17px;
+  font-family: sans-serif;
+  line-height: 25px;
+  margin-top:20px;
+  letter-spacing: 0.8px;
+  }
+  .fa-solid.fa-play{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+   font-size: 25px;
+   color: white;
+   background: linear-gradient(to left bottom,#ee0979,#fc1c62,#ff364a,#ff512f,#ff6a00);
+    border-radius: 50%;
+  }
+  .playicon{
+    margin-top: 15px;
+  }
+  .watch-video{
+    margin-left: 10px;
+    font-size: 18px;
+  
+  }
+/* ============================== Showreel End ============================================== */
+/* ============================== Build_business ============================================== */
+.build_business{
+  width: 90%;
+  margin: auto;
+}
+.build_business_heading{
+  font-size: 32px;
+  font-family: Poppins;
+  width: 650px;
+  text-align: center;
+  margin: auto;
+}
+/* ============================== Build_business End ============================================== */
+

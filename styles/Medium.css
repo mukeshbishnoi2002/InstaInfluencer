@@ -222,4 +222,21 @@
 }
 
 /* ==============================trusted_partners End ============================================== */
+/* ============================== Showreel ============================================== */
+
+.showreel{
+  grid-template-columns: 1fr;
+  text-align: center;
+  gap: 20px;
+}
+.showreel_card_first_inner{
+  width: 650px;
+  margin: auto;
+}
+.video-img{
+  width: 691px;
+  height: 400px;
+}
+/* ============================== Showreel End ============================================== */
+
 }
