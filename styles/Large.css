@@ -121,6 +121,25 @@
   }
 
 /* ==============================audience End ============================================== */
+/* ==============================trusted_partners ============================================== */
+/* .trusted_partners_heading {
+  width: 550px;
+} */
+.trusted_partners_heading h2 {
+  font-size: 30px;
+}
+
+.trusted_partners_heading p {
+  font-size: 16px;
+
+}
+.insta-partner_images{
+  width: 170px;
+  height: 44px;
+}
+
+
+/* ==============================trusted_partners End ============================================== */
 
 
 }

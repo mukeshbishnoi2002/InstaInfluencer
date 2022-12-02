@@ -170,5 +170,29 @@
   font-size: 16px;
  }
 /* ==============================audience End ============================================== */
+/* ==============================trusted_partners ============================================== */
+.trusted_partners_heading {
+  width: 470px;
+}
+.trusted_partners_heading h2 {
+  font-size: 27px;
+}
 
+.trusted_partners_heading p {
+  font-size: 14.5px;
+
+}
+.platform_icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+  margin-top: 40px;
+}
+
+.insta-partner_images{
+  width: 135px;
+  height: 37px;
+}
+
+/* ==============================trusted_partners End ============================================== */
 }

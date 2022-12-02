@@ -61,31 +61,31 @@ export const Trusted_platform_icons = [
                                     },
                                     {
                                         id:1,
-                                        icon:require('../public/Images/insta-partner1.png'),
+                                        icon:require('../public/Images/insta-partner2.png'),
                                     },
                                     {
                                         id:2,
-                                        icon:require('../public/Images/insta-partner1.png'),
+                                        icon:require('../public/Images/insta-partner3.png'),
                                     },
                                     {
                                         id:3,
-                                        icon:require('../public/Images/insta-partner1.png'),
+                                        icon:require('../public/Images/insta-partner4.png'),
                                     },
                                     {
                                         id:4,
-                                        icon:require('../public/Images/insta-partner1.png'),
+                                        icon:require('../public/Images/insta-partner5.png'),
                                     },
                                     {
                                         id:5,
-                                        icon:require('../public/Images/insta-partner1.png'),
+                                        icon:require('../public/Images/insta-partner6.png'),
                                     },
                                     {
                                         id:6,
-                                        icon:"",
+                                        icon:require('../public/Images/insta-partner7.png'),
                                     },
                                     {
                                         id:7,
-                                        icon:"",
+                                        icon:require('../public/Images/insta-partner8.png'),
                                     },
 ];
 
