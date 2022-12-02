@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function Trusted_partners() {
   return (
     <div className='trusted_partners'>
@@ -8,14 +8,15 @@ function Trusted_partners() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
        </div>
         <div className='platform_icons'>
-          <div><h1>Aesop</h1></div>
-          <div><h1>glossier</h1></div>
-          <div><h1>LVMH</h1></div>
-          <div><h1>KINFO</h1></div>
-          <div><h1>EVERLA</h1></div>
-          <div><h1>GARCONS</h1></div>
-          <div><h1>Interview</h1></div>
-          <div><h1>OPENING</h1></div>
+          {}
+          <div><Image src="/Images/insta-partner1.png" width={200} height={150}></Image></div>
+          {/* <div><Image src="/Images/insta-partner1.png"></Image></div>
+          <div><Image src="/Images/insta-partner1.png"></Image></div>
+          <div><Image src="/Images/insta-partner1.png"></Image></div>
+          <div><Image src="/Images/insta-partner1.png"></Image></div>
+          <div><Image src="/Images/insta-partner1.png"></Image></div>
+          <div><Image src="/Images/insta-partner1.png"></Image></div>
+          <div><Image src="/Images/insta-partner1.png"></Image></div> */}
         </div>
     </div>
   )

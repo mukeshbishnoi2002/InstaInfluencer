@@ -57,27 +57,27 @@ export const Social_statistics_information = [
 export const Trusted_platform_icons = [
                                     {
                                         id:0,
-                                        icon:"",
+                                        icon:require('../public/Images/insta-partner1.png'),
                                     },
                                     {
                                         id:1,
-                                        icon:"",
+                                        icon:require('../public/Images/insta-partner1.png'),
                                     },
                                     {
                                         id:2,
-                                        icon:"",
+                                        icon:require('../public/Images/insta-partner1.png'),
                                     },
                                     {
                                         id:3,
-                                        icon:"",
+                                        icon:require('../public/Images/insta-partner1.png'),
                                     },
                                     {
                                         id:4,
-                                        icon:"",
+                                        icon:require('../public/Images/insta-partner1.png'),
                                     },
                                     {
                                         id:5,
-                                        icon:"",
+                                        icon:require('../public/Images/insta-partner1.png'),
                                     },
                                     {
                                         id:6,
