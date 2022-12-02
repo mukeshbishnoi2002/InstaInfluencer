@@ -455,7 +455,44 @@ border-radius: 4px;
   line-height: 28px;
   font-size: 18px;
 }
-
-
-
 /* ==============================audience End ============================================== */
+/* ==============================trusted_partners ============================================== */
+
+.trusted_partners{
+width: 95%;
+margin: auto;
+border: 1px solid red;
+text-align: center;
+margin-bottom: 70px;
+}
+.trusted_partners_heading{
+width: 600px;
+margin: auto;
+}
+.trusted_partners_heading h2{
+  font-size: 32px;
+  font-family: Poppins;
+  letter-spacing: 1px;
+}
+.trusted_partners_heading p{
+  font-size: 17pxpx;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #666;
+  margin-top: 10px;
+}
+.platform_icons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.platform_icons div{
+border: 1px solid green;
+padding: 20px;
+}
+.platform_icons div h1{
+  padding: 25px 20px;
+  border-top-right-radius: 50px;
+  background-color: white;
+  }
+/* ==============================trusted_partners End ============================================== */
