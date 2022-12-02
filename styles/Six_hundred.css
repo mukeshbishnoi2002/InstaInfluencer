@@ -1,52 +1,54 @@
-@media screen and (max-width:600px){
-     /* ==============================Influencer_info  ============================================== */
-.influencer_info_heading{
+@media screen and (max-width:600px) {
+  /* ==============================Influencer_info  ============================================== */
+  .influencer_info_heading,
+  .social_statistics_heading {
     font-size: 21px;
-    
     width: max(50%, 400px);
     line-height: 41px;
-  
   }
 
-  .influencer_card{
- 
-    grid-template-columns : 1fr;
+  .influencer_card,
+  .social_statistics_card {
+    grid-template-columns: 1fr;
     gap: 20px;
+  }
 
-}
-
-  .card{
+  .card {
     padding: 40px 10px;
-    
-    }
-  .suscriber{
+
+  }
+
+  .suscriber {
     font-size: 28px;
   }
-  .platform{
-      font-size: 17px;
+
+  .platform {
+    font-size: 17px;
     margin-bottom: 15px;
   }
-  .card span{
+
+  .card span {
     font-size: 15px !important;
   }
-  .dec{
- font-size: 14px ;
+
+  .dec {
+    font-size: 14px;
   }
-.cards_background_effect{
+
+  .cards_background_effect {
     display: none;
-  
   }
 
-/* ==============================Influencer_info End ============================================== */
-/* ==============================Influencer_info ============================================== */
-.social_statistics_heading_p{
-  font-size: 15px;
-  width: 400px;
-  margin: auto;
-  line-height: 25px;
-  letter-spacing: 0.8px;
-  margin-top: 14px;
-}
+  /* ==============================Influencer_info End ============================================== */
+  /* ==============================social_statistics ============================================== */
+  .social_statistics_heading_p {
+    font-size: 15px;
+    width: 400px;
+    margin: auto;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+    margin-top: 14px;
+  }
 
-/* ==============================Influencer_info End ============================================== */
+  /* ==============================social_statistics End ============================================== */
 }

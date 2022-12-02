@@ -2,104 +2,112 @@
   font-family: Poppins;
   src: url('../Poppins/Poppins-Bold.ttf');
 }
-*{
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
- 
 }
-.nav, .hero{
+
+.nav,
+.hero {
   width: 92%;
   margin: auto;
 }
-body{
+
+body {
   background-color: #f9f9f9;
 }
 
 /* ============================================================================ */
 /* ============================== nav bar ============================================== */
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 9vh;
   padding: 35px 0;
-
 }
-.nav h2{
+
+.nav h2 {
   font-size: 30px;
   font-weight: 900;
-  font-family: sans-serif ,serif,'Times New Roman', Times;
+  font-family: sans-serif, serif, 'Times New Roman', Times;
 }
-.nav li{
+
+.nav li {
   list-style: none;
   display: inline-block;
   font-weight: 600;
   padding: 7px 14px;
   font-size: 17px;
-  font-family: sans-serif ,serif,'Times New Roman', Times;
+  font-family: sans-serif, serif, 'Times New Roman', Times;
 }
-.nav li:first-child{
+
+.nav li:first-child {
   color: #fc1c62;
 }
+
 /* ============================== nav bar End ============================================== */
 /* ============================== Hero ============================================== */
-.hero{
+.hero {
   display: grid;
   grid-template-columns: 40% 60%;
   align-items: center;
   margin-top: 20px;
 }
-.hero_content{
+
+.hero_content {
   display: flex;
   flex-direction: column;
   gap: 30px;
-
 }
-.hero_content h1{
-  font-size:64px;
+
+.hero_content h1 {
+  font-size: 64px;
   line-height: 70px;
   font-family: Poppins;
 }
-.hero_content p{
+
+.hero_content p {
   line-height: 30px;
   font-size: 16px;
   color: #666;
   font-family: sans-serif;
   letter-spacing: 0.9px;
-  
 }
 
-.hero_bg{
+.hero_bg {
   background-image: url('../public/Images/dot-bg.png');
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: contain;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   position: relative;
 }
-.hero_bg::after{
+
+.hero_bg::after {
   content: url('../public/Images/line-bg1.png');
   position: absolute;
   left: 0;
   bottom: 0;
-
 }
-.hero_bg::before{
+
+.hero_bg::before {
   content: url('../public/Images/line-bg2.png');
   position: absolute;
   right: 17px;
   bottom: 0;
-
 }
-.hero_im{
+
+.hero_im {
   padding-top: 50px;
   z-index: 1;
 }
 
-.hero_content input{
+.hero_content input {
   padding: 18px;
   width: 52%;
   font-size: 16px;
@@ -108,8 +116,8 @@ body{
   outline: none;
 }
 
-.hero_content button{
-  background: linear-gradient(to left bottom,#ee0979,#fc1c62,#ff364a,#ff512f,#ff6a00);
+.hero_content button {
+  background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
   padding: 18px 25px;
   margin-left: -5px;
   color: white;
@@ -121,107 +129,120 @@ body{
 
 /* ============================== Hero End ============================================== */
 /* ==============================Influencer_info  ============================================== */
-
-
-.influencer_info{
+.influencer_info,
+.social_statistics_info {
   text-align: center;
   font-family: sans-serif;
   position: relative;
   width: 88%;
   margin: auto;
 }
-.influencer, .social_statistics{
+
+.influencer,
+.social_statistics {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.what_do{
+
+.what_do {
   color: #ff364a;
   margin-bottom: 20px;
 }
-.influencer_info_heading{
+
+.influencer_info_heading {
   font-size: 36px;
   margin-top: 20px;
   width: max(50%, 700px);
   line-height: 45px;
-  font-family:Poppins;
+  font-family: Poppins;
   margin: auto;
 }
-.influencer_card{
+
+.influencer_card,
+.social_statistics_card {
   display: grid;
-  grid-template-columns :1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   margin-top: 50px;
   align-items: center;
   color: #666;
 }
-.card{
-padding: 80px 40px;
-border-top-right-radius: 80px;
-position: relative;
-transition:0.5s;
-z-index: 1;
-background-color: white;
-box-shadow: 3px 5px 25px 0 rgb(0 0 0 / 10%);
+
+.card {
+  padding: 80px 40px;
+  border-top-right-radius: 80px;
+  position: relative;
+  transition: 0.5s;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 3px 5px 25px 0 rgb(0 0 0 / 10%);
 }
-.effect{
+
+.effect {
   width: 100%;
   position: absolute;
-height: 5px;
-background: linear-gradient(to left bottom,#ee0979,#fc1c62,#ff364a,#ff512f,#ff6a00);
-left: 0;
-bottom: 0;
-z-index: -1;
-transition:0.5s
+  height: 5px;
+  background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s
 }
-.card:hover .effect{
+
+.card:hover .effect {
   height: 100%;
 }
-.card:hover{
+
+.card:hover {
   border-top-right-radius: 0px;
   color: white;
 }
-.card:hover .suscriber{
+
+.card:hover .suscriber {
   color: white;
 }
-.suscriber{
+
+.suscriber {
   font-size: 40px;
   font-weight: 900;
   color: black;
   margin-bottom: 10px;
   transition: 0.5s;
-
 }
-.platform{
-    font-size: 19px;
-    font-style: italic;
-    letter-spacing: 1px;
+
+.platform {
+  font-size: 19px;
+  font-style: italic;
+  letter-spacing: 1px;
   margin-bottom: 15px;
 }
 
-.card span{
+.card span {
   letter-spacing: 1px;
 }
-.line_of_card{
+
+.line_of_card {
   margin-top: 30px;
   margin-bottom: 15px;
 }
-.dec{
+
+.dec {
   letter-spacing: 1px;
   line-height: 30px;
   margin-top: 15px;
 }
-.cards_background_effect{
+
+.cards_background_effect {
   position: absolute;
   right: -6.5%;
   top: 15%;
-
 }
 
 
 /* ==============================Influencer_info End ============================================== */
 /* ==============================Influencer_about_me ============================================== */
-.Influencer_about_me{
-  width: 95%;
+.Influencer_about_me {
+  width: 91%;
   margin: auto;
   display: grid;
   grid-template-columns: 40% 60%;
@@ -230,98 +251,120 @@ transition:0.5s
   font-family: sans-serif;
   padding-top: 70px;
   padding-bottom: 70px;
-  
 }
 
-.Influencer_about_me_card_one{
+.Influencer_about_me_card_one {
   position: relative;
   display: flex;
-    justify-content: center;
+  justify-content: center;
 }
-.insta-about-shape1{
+
+.insta-about-shape1 {
   position: absolute;
   left: 0;
   top: 0;
   animation: anim1 5s linear infinite;
 }
-.insta-about-shape2{
+
+.insta-about-shape2 {
   position: absolute;
   right: 10%;
   bottom: -10%;
   z-index: -1;
   animation: anim2 5s linear infinite;
 }
-@keyframes anim1{
-  0% { transform: translateY(0); }
-  50% {transform: translateY(20px);}
-  100% { transform: translateY(0);}
-}
-@keyframes anim2{
-  0% { transform: translateX(0); }
-  50% {transform: translateX(20px);}
-  100% { transform: translateX(0);}
+
+@keyframes anim1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
-.Influencer_about_me_card_two{
+@keyframes anim2 {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.Influencer_about_me_card_two {
   display: flex;
   flex-direction: column;
-  gap: 20px;padding: 0 15px;
+  gap: 20px;
+  padding: 0 15px;
 }
-.Influencer_about_me_card_two p:first-child{
-color: #ff6a00;
-font-size: 16px;
-letter-spacing: 0.5px;
-}
-.Influencer_about_me_card_two h1{
 
+.Influencer_about_me_card_two p:first-child {
+  color: #ff6a00;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.Influencer_about_me_card_two h1 {
   font-size: 35px;
   font-family: Poppins;
+}
 
-  }
-  .Influencer_about_me_card_two p:nth-child(3){
- font-family: sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    line-height: 30px;
-    color: #666;
-    }
-    .Influencer_about_me_card_two button{
-      padding: 13px 30px;
-      color: white;
-      border: none;
-      font-weight: 600;
-      font-size: 17px;
-      background: linear-gradient(to left bottom,#ee0979,#fc1c62,#ff364a,#ff512f,#ff6a00);
-      
-    }
-    .Influencer_about_me_card_two button:hover{
-      background: #ee0979;
-    }
-    .Influencer_about_me_card_two span a{
-      color: rgb(29, 28, 28);
-      margin-left: 20px;
-    padding-bottom: 5px;
-      text-decoration: none;
-      position: relative;
-      font-size: 17.5px;
-    }
-    .Influencer_about_me_card_two span a::after{
-      width: 100%;
-      height: 1px;
-      content: "";
-      position: absolute;
-      left: 0;
-      transition: .5s;
-      bottom: 0;
-      background-color: #999;
-    }
-   
+.Influencer_about_me_card_two p:nth-child(3) {
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  color: #666;
+}
 
+.Influencer_about_me_card_two button {
+  padding: 13px 30px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 17px;
+  background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
 
+}
+
+.Influencer_about_me_card_two button:hover {
+  background: #ee0979;
+}
+
+.Influencer_about_me_card_two span a {
+  color: rgb(29, 28, 28);
+  margin-left: 20px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  position: relative;
+  font-size: 17.5px;
+}
+
+.Influencer_about_me_card_two span a::after {
+  width: 100%;
+  height: 1px;
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: .5s;
+  bottom: 0;
+  background-color: #999;
+}
 
 /* ==============================Influencer_about_me End ============================================== */
-/* ==============================Influencer_info ============================================== */
-.social_statistics_heading_p{
+/* ==============================social_statistics ============================================== */
+.social_statistics_heading_p {
   font-size: 17px;
   width: 600px;
   margin: auto;
@@ -329,4 +372,90 @@ letter-spacing: 0.5px;
   letter-spacing: 0.8px;
   margin-top: 20px;
 }
-/* ==============================Influencer_info End ============================================== */
+
+/* ==============================social_statistics End ============================================== */
+/* ==============================audience ============================================== */
+
+.audience{
+display: grid;
+grid-template-columns:50% 50%;
+justify-content: center;
+ width: 95%;
+ margin: auto;
+  align-items: center;
+
+}
+.audience_card_first, .audience_card_second{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.audience_card_first,.audience_card_second_inner_card, .instgram_audience_inner_card{
+  display: grid;
+ align-items: center;
+  grid-template-columns:repeat(2, 1fr);
+}
+.audience_card_second_inner_card, .instgram_audience_inner_card{
+  margin-top: 20px;
+}
+.audience_card_first_image_three{
+  margin-top: 45px;
+  grid-column-end: -1;
+  grid-column-start: 1;
+}
+.audience_card_first_image_one, .audience_card_first_image_two, .audience_card_first_image_three{
+  border-top-right-radius: 50px;
+}
+
+.audience_card_second{
+ display: grid;
+ gap: 20px;
+}
+.influencer_name{
+color:#ee0979;
+letter-spacing: 1px;
+}
+.influencer_name_heading{
+  font-family:Poppins;
+  font-size: 35px;
+}
+.instagram_audience_heading, .instagram_collaboration_heading{
+  font-family: sans-serif;
+  color: #666;
+
+}
+.percent{
+  font-size: 20px;
+  color: #666;
+}
+.diff_style{
+  font-size: 28px;
+  font-weight:600;
+  color:black;
+}
+.second_percent{
+  padding: 4px 40px;
+  background-color: rgb(220, 215, 215);
+  width: 100%;
+  margin: 8px 0;
+border-radius: 4px;
+}
+.second_diff_style{
+  font-size: 20px;
+  color:black;
+}
+.collaboration_name{
+  font-size: 19px;
+  font-family: sans-serif;
+  letter-spacing: 0.8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.collaboration_dec{
+  color: #666;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+
+
+/* ==============================audience End ============================================== */

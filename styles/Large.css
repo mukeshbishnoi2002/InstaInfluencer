@@ -78,7 +78,49 @@
         font-size: 16.5px;
     }
 
-
     /* ==============================Influencer_about_me End ============================================== */
+
+/* ==============================audience ============================================== */
+.audience_card_first_image_one,.audience_card_first_image_two{
+    width: 205px;
+    height: 260px;
+  }
+  .audience_card_first_image_three{
+    width: 440px;
+    height: 260px;
+  }
+  .audience_card_first_image_three{
+    margin-top: 30px;
+  }
+  .audience_card_second{
+    gap: 18px;
+   }
+   .influencer_name_heading{
+    font-size: 31px;
+  }
+  .percent{
+    font-size: 19px;
+  }
+  .diff_style{
+    font-size: 26px;
+  }
+  .second_percent{
+    padding: 3px 30px;
+    background-color: rgb(220, 215, 215);
+    width: 100%;
+    margin: 7px 0;
+    font-size:14px;
+  border-radius: 3px;
+  }
+  .second_diff_style{
+    font-size: 18px;
+  }
+  .instagram_collaboration_image_one, .instagram_collaboration_image_two{
+    width:200px;
+    height: 180px;
+  }
+
+/* ==============================audience End ============================================== */
+
 
 }
