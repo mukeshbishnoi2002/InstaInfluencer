@@ -13,7 +13,7 @@ function Hero() {
         </div>
         <div className='hero_bg'>
         
-        <Image src="/Images/background.png" height={610} width={480} className="hero_im" alt=""></Image>
+        <Image src="/Images/background.png" height={610} width={480} className="hero_im" alt="hero"></Image>
 
         </div>
       </div>

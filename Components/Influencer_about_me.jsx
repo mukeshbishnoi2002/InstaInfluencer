@@ -6,9 +6,9 @@ function Influencer_about_me() {
   return (
    <div className='Influencer_about_me'>
             <div className='Influencer_about_me_card_one'>
-                    <Image src="/Images/insta-about1.png" width={500} height={400} className="insta-about"></Image>
-                    <Image src="/Images/insta-about-shape1.png" width={182} height={211} className="insta-about-shape1"></Image>
-                    <Image src="/Images/insta-about-shape2.png" width={264} height={153} className="insta-about-shape2"></Image>
+                    <Image src="/Images/insta-about1.png" width={500} height={400} className="insta-about" alt='Influencer_about_me_one'></Image>
+                    <Image src="/Images/insta-about-shape1.png" width={182} height={211} className="insta-about-shape1" alt='Influencer_about_me_two'></Image>
+                    <Image src="/Images/insta-about-shape2.png" width={264} height={153} className="insta-about-shape2" alt='Influencer_about_me_three'></Image>
                    
                     
             </div>

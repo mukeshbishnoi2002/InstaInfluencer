@@ -573,10 +573,12 @@ font-size: 32px;
   
   }
 /* ============================== Showreel End ============================================== */
+
 /* ============================== Build_business ============================================== */
 .build_business{
-  width: 90%;
+  width: 1140px;
   margin: auto;
+ 
 }
 .build_business_heading{
   font-size: 32px;
@@ -585,5 +587,95 @@ font-size: 32px;
   text-align: center;
   margin: auto;
 }
+.build_business_card{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ align-items: center;
+}
+.build_business_image{
+  border-top-right-radius: 80px;
+}
+.build_business_card_content{
+width: 540px;
+height: 250px;
+padding: 0px 20px;
+}
+.build_business_card_content h2{
+  font-size: 25px;
+  font-family: Poppins;
+}
+.build_business_card_content p{
+ font-size: 17px;
+ font-family: sans-serif;
+ color: #666;
+ line-height: 30px;
+ margin-top: 15px;
+}
+.build_business_card_content button{
+ height: 50px;
+ width: 150px;
+ font-weight: 600;
+ color: white;
+ font-size: 16px;
+ padding: 4px 0;
+ background: linear-gradient(to left bottom,#ee0979,#fc1c62,#ff364a,#ff512f,#ff6a00);
+ margin-top: 15px;
+border: none;
+ }
 /* ============================== Build_business End ============================================== */
+/* ==============================Latest_insights ============================================== */
+.latest_inside{
+  width: 95%;
+  margin: auto;
+  padding: 80px 0;
+}
+.from_blog{
+  color:#ff512f;
+  font-size: 18px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.latest_inside_card_container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 25px;
+}
+.latest_inside_card{
+  position: relative;
+}
 
+.latest_inside_inner_card{
+  width: 380px;
+  position: absolute;
+  top: 50%;
+  left: 175px;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: white;
+  padding: 25px 30px;
+}
+.latest_inside_inner_card p{
+  font-size: 17px;
+  color: #666;
+  letter-spacing: 0.8px;
+}
+.latest_inside_inner_card h2{
+  font-size: 22px;
+  color: #666;
+  color: black;
+  margin-top:15px;
+  letter-spacing: 1px;
+  font-family: Poppins;
+}
+.latest_inside_heading{
+  font-size: 35px;
+  font-family: Poppins;
+  margin-top: 8px;
+  text-align: center;
+}
+.latest_inside_image{
+border-top-right-radius: 30%;
+}
+
+/* ============================== Latest_insights End ============================================== */

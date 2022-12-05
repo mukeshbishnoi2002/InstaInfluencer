@@ -5,10 +5,10 @@ function Audience() {
     <div className='audience'>
       <div className='audience_card_first'>
 
-        <Image src="/Images/audience-img1.jpg" width={245} height={270} alt="" className='audience_card_first_image_one'></Image>
-        <Image src="/Images/audience-img2.jpg" width={245} height={270} alt="" className='audience_card_first_image_two'></Image>
+        <Image src="/Images/audience-img1.jpg" width={245} height={270} alt="audience1" className='audience_card_first_image_one'></Image>
+        <Image src="/Images/audience-img2.jpg" width={245} height={270} alt="audience2" className='audience_card_first_image_two'></Image>
 
-        <Image src="/Images/audience-img3.jpg" width={530} height={270} alt="" className='audience_card_first_image_three'></Image>
+        <Image src="/Images/audience-img3.jpg" width={530} height={270} alt="audience3" className='audience_card_first_image_three'></Image>
       </div>
       <div className='audience_card_second'>
         <p className='influencer_name'>@ALIKAMAYA</p>

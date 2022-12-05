@@ -216,4 +216,51 @@
   height: 255px;
 }
 /* ============================== Showreel End ============================================== */
+/* ============================== Build_business  ============================================== */
+.build_business {
+  width: 499px;
+}
+.build_business_heading{
+  font-size: 23px;
+  width: 480px;
+  text-align: center;
+  margin: auto;
+}
+.build_business_image {
+  width: 431px;
+  height: 313px;
+}
+.build_business_card_content h2{
+  font-size: 21px;
+}
+.build_business_card_content p{
+ font-size: 14.5px;
+}
+.build_business_card_content button{
+  height: 40px;
+  width: 130px;
+  font-size: 14px;
+  line-height: 27px;
+  }
+/* ============================== Build_business End ============================================== */
+/* ============================== Latest_insights ============================================== */
+.latest_inside_image{
+  width: 318px;
+  height: 350px;
+ 
+  } 
+  .latest_inside_inner_card {
+    width: 264px;
+    left: 140px;
+  padding: 20px 16px;
+
+}
+.latest_inside_inner_card p {
+  font-size: 14px;
+}
+.latest_inside_inner_card h2 {
+  font-size: 15px;
+}
+
+/* ============================== Latest_insights End ============================================== */
 }

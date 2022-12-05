@@ -92,14 +92,14 @@ export const Trusted_platform_icons = [
 export const Build_business_information = [
                                     {
                                         id:0,
-                                        img:"",
+                                        img:require('../public/Images/podcast-img1.jpg'),
                                         title:"Social Creator",
                                         dec:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Qu ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.",
                                         btn:"Read More",
                                     },
                                     {
-                                        id:0,
-                                        img:"",
+                                        id:1,
+                                        img:require('../public/Images/podcast-img2.jpg'),
                                         title:"The Podcast",
                                         dec:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Qu ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.",
                                         btn:"Read More",
@@ -110,30 +110,31 @@ export const Build_business_information = [
 export const Latest_insights_information = [
                                     {
                                         id:0,
-                                        img1:"",
+                                        img1:"/../public/Images/insta-blog1.jpg",
                                         post_type:"Fashion",
                                         post_style:"Lifestyle",
-                                        post_uplaod_time: "4 min read"
+                                        post_uplaod_time: "4 min read",
+                                        title:"How to Find the Perfect Influencers for Your Niche",
                                     },
                                     {
                                         id:1,
-                                        img1:"",
+                                        img1:'/../public/Images/insta-blog2.jpg',
                                         post_type:"Travel",
                                         post_style:"Style",
                                         post_uplaod_time: "3 min read",
                                         title:"How to Find the Perfect Influencers for Your Niche",
                                     },
                                     {
-                                        id:0,
-                                        img1:"",
+                                        id:2,
+                                        img1:'/../public/Images/insta-blog3.jpg',
                                         post_type:"Fashion",
                                         post_style:"Travel",
                                         post_uplaod_time: "6 min read",
                                         title:"How Micro-Influencers Can Transform Your Business",
                                     },
                                     {
-                                        id:0,
-                                        img1:"",
+                                        id:3,
+                                        img1:'/../public/Images/insta-blog4.jpg',
                                         post_type:"Lifestyle",
                                         post_style:"Travel",
                                         post_uplaod_time: "5 min read",

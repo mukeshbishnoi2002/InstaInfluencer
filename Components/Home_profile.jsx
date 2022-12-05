@@ -8,6 +8,7 @@ import Audience from './Audience'
 import Trusted_partners from './Trusted_partners'
 import Showreel from './Showreel'
 import Build_business from './Build_business'
+import Latest_insights from './Latest_insights'
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
         <Trusted_partners />
         <Showreel />
         <Build_business />
+        <Latest_insights />
    </>
   )
 }

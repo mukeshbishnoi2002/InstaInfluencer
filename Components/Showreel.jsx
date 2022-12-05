@@ -10,7 +10,7 @@ function Showreel() {
           <h1>Want to stick out in a saturated market?</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
           <div className='playicon'>
-            <i class="fa-solid fa-play"></i><span className='watch-video'>Watch Video</span>
+            <i className="fa-solid fa-play"></i><span className='watch-video'>Watch Video</span>
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@ function Influencer_info() {
           }
 
         </div>
-        <Image src="/Images/insta-shape1.png" width={400} height={400} className="cards_background_effect"></Image>
+        <Image src="/Images/insta-shape1.png" width={400} height={400} className="cards_background_effect" alt='influencer'></Image>
       </div>
 
     </div>

@@ -238,5 +238,56 @@
   height: 400px;
 }
 /* ============================== Showreel End ============================================== */
+/* ============================== Build_business============================================== */
+
+.build_business{
+  width: 720px;
+}
+.build_business_card{
+  grid-template-columns: 1fr;
+  text-align: center;
+  justify-items: center;
+  gap: 20px;
+ margin-top: 20px;
+
+}
+.build_business_image{
+width: 691px;
+height: 350px;
+}
+.build_business_card_content{
+width: 500px;
+height: 250px;
+padding: 0px 20px;
+
+}
+/* ============================== Build_business End ============================================== */
+/* ============================== Latest_insights ============================================== */
+.latest_inside_heading {
+  font-size: 30px;
+
+}
+.latest_inside_image {
+  width: 399px;
+  height: 385px;
+}
+.latest_inside_card_container{
+  display: grid;
+  grid-template-columns:  1fr;
+  justify-items: center;
+}
+.latest_inside_inner_card{
+  width: 330px;
+  left: 190px;
+ 
+}
+.latest_inside_inner_card p{
+font-size: 18px;
+}
+.latest_inside_inner_card h2{
+  font-size: 19px;
+  }
+
+/* ============================== Latest_insights End ============================================== */
 
 }
