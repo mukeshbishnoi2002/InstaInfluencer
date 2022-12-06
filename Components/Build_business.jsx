@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Build_business_information } from '../Utility/Cards'
+import { requestToBodyStream } from 'next/dist/server/body-streams';
 function Build_business() {
   return (
     <div className='build_business'>
@@ -11,7 +12,7 @@ function Build_business() {
           const { img, title, dec, btn, id } = items;
           return (
             <div className='build_business_card' key={key}>
-             <Image src={img} alt="build_business" width={569} height={370} style={{order : id == 1 ? 1 : 0}}  className="build_business_image"></Image>
+             <Image src={img} alt="build_business" width={569} height={370} style={{order : id == 1 ? 1 : 0}} id={id == 1 ? "one" : "two"}  className="build_business_image"></Image>
               <div className='build_business_card_content' >
                 <h2>{title}</h2>
                 <p>{dec}</p>

@@ -9,6 +9,7 @@ import Trusted_partners from './Trusted_partners'
 import Showreel from './Showreel'
 import Build_business from './Build_business'
 import Latest_insights from './Latest_insights'
+import Footer from './Footer'
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
         <Showreel />
         <Build_business />
         <Latest_insights />
+        <Footer />
    </>
   )
 }

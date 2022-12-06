@@ -261,6 +261,9 @@ height: 250px;
 padding: 0px 20px;
 
 }
+#one{
+  order: 0 !important;
+}
 /* ============================== Build_business End ============================================== */
 /* ============================== Latest_insights ============================================== */
 .latest_inside_heading {
@@ -289,5 +292,25 @@ font-size: 18px;
   }
 
 /* ============================== Latest_insights End ============================================== */
+
+
+/* ============================== footer ============================================== */
+.footer-inner{
+  width: 500px;
+ justify-items: center;
+  grid-template-columns: 1fr;
+ text-align: center;
+ 
+}
+.footer_second_card form{
+ margin-top: 20px;
+  width: 100%;
+
+}
+  
+  /* ============================== footer End ============================================== */
+  
+
+
 
 }
