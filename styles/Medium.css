@@ -302,6 +302,9 @@ font-size: 18px;
  text-align: center;
  
 }
+.footer_second_card{
+width: 100%;
+}
 .footer_second_card form{
  margin-top: 20px;
   width: 100%;
@@ -310,7 +313,11 @@ font-size: 18px;
   
   /* ============================== footer End ============================================== */
   
-
+  .footer_sub{
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
 
 
 }

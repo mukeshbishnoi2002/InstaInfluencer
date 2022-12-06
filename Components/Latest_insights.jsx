@@ -10,10 +10,10 @@ function Latest_insights() {
       <div className='latest_inside_card_container'>
         {
           Latest_insights_information.map((items, key) => {
-            const { id, img1, post_type, post_style, post_uplaod_time, title} = items;
+            const { id, img, post_type, post_style, post_uplaod_time, title} = items;
             return (
               <div className='latest_inside_card' key={key}>
-                <Image src={img1} width={310} height={385} alt="latest_inside" className='latest_inside_image'></Image>
+                <Image src={img} width={310} height={385} alt="latest_inside" className='latest_inside_image'></Image>
                 <div className='latest_inside_inner_card'>
                   <p>{post_type}, {post_style} - {post_uplaod_time}</p>
                   <h2>{title}</h2>

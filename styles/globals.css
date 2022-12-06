@@ -700,7 +700,6 @@ height: 100%;
   }
 .footer-inner{
   width: 1000px;
-  border:1px solid red;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: auto;
@@ -730,9 +729,7 @@ height: 100%;
 
 .footer_second_card form{
   display: flex;
-  width: 70%;
-  float: right;
-  
+  width: 100%;
   flex-direction: column;
   padding: 50px 30px;
   background-color: white;
@@ -757,3 +754,32 @@ border: none;
 }
 
 /* ============================== footer End ============================================== */
+/* ============================== Footer sub ============================================== */
+.Theme{
+  color: #ff512f;
+}
+.footer_sub{
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif;
+  text-align: center;
+}
+.website_pages_icon i{
+  font-size: 15px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+ text-align: center;
+  background-color: rgb(173, 168, 168);
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.website_pages_icon{
+  display: flex;
+}
+/* ============================== Footer sub End ============================================== */

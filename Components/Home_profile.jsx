@@ -10,6 +10,7 @@ import Showreel from './Showreel'
 import Build_business from './Build_business'
 import Latest_insights from './Latest_insights'
 import Footer from './Footer'
+import Footer_sub from './Footer_sub'
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
         <Build_business />
         <Latest_insights />
         <Footer />
+        <Footer_sub />
    </>
   )
 }
