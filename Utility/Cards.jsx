@@ -110,8 +110,8 @@ export const Build_business_information = [
 export const Latest_insights_information = [
                                     {
                                         id:0,
-                                        img:"/../public/Images/insta-blog1.jpg",
-                                        // img:require('../public/Images/insta-blog1.jpg'),
+                                        // img:"/../public/Images/insta-blog1.jpg",
+                                        img:require('../public/Images/insta-blog1.jpg'),
                                         post_type:"Fashion",
                                         post_style:"Lifestyle",
                                         post_uplaod_time: "4 min read",
@@ -119,8 +119,8 @@ export const Latest_insights_information = [
                                     },
                                     {
                                         id:1,
-                                        img:'/../public/Images/insta-blog2.jpg',
-                                        // img:require('../public/Images/insta-blog2.jpg'),
+                                        // img:'/../public/Images/insta-blog2.jpg',
+                                        img:require('../public/Images/insta-blog2.jpg'),
                                         post_type:"Travel",
                                         post_style:"Style",
                                         post_uplaod_time: "3 min read",
@@ -128,8 +128,8 @@ export const Latest_insights_information = [
                                     },
                                     {
                                         id:2,
-                                        img:'/../public/Images/insta-blog3.jpg',
-                                        // img:require('../public/Images/insta-blog3.jpg'),
+                                        // img:'/../public/Images/insta-blog3.jpg',
+                                        img:require('../public/Images/insta-blog3.jpg'),
                                         post_type:"Fashion",
                                         post_style:"Travel",
                                         post_uplaod_time: "6 min read",
@@ -137,8 +137,8 @@ export const Latest_insights_information = [
                                     },
                                     {
                                         id:3,
-                                        img:'/../public/Images/insta-blog4.jpg',
-                                        // img:require('../public/Images/insta-blog4.jpg'),
+                                        // img:'/../public/Images/insta-blog4.jpg',
+                                        img:require('../public/Images/insta-blog4.jpg'),
                                         post_type:"Lifestyle",
                                         post_style:"Travel",
                                         post_uplaod_time: "5 min read",
