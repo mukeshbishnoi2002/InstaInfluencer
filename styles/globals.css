@@ -586,6 +586,7 @@ font-size: 32px;
   width: 650px;
   text-align: center;
   margin: auto;
+  margin-bottom: 50px;
 }
 .build_business_card{
  display: grid;

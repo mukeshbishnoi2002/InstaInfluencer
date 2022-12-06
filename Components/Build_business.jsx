@@ -12,11 +12,11 @@ function Build_business() {
           const { img, title, dec, btn, id } = items;
           return (
             <div className='build_business_card' key={key}>
-             <Image src={img} alt="build_business" width={569} height={370} style={{order : id == 1 ? 1 : 0}} id={id == 1 ? "one" : "two"}  className="build_business_image"></Image>
+             <Image src={img} alt="build_business" width={569} height={370} style={{order : id == 1 ? 1 : 0}} id={id == 1 ? "one" : "two"} data-aos={id == 0 ? "fade-right" : "fade-left"} className="build_business_image"></Image>
               <div className='build_business_card_content' >
-                <h2>{title}</h2>
-                <p>{dec}</p>
-                <button>{btn}</button>
+                <h2 data-aos={id == 0 ? "fade-left" : "fade-right"} data-aos-delay="100">{title}</h2>
+                <p data-aos={id == 0 ? "fade-left" : "fade-right"} data-aos-delay="200">{dec}</p>
+                <button data-aos={id == 0 ? "fade-left" : "fade-right"} data-aos-delay="300">{btn}</button>
               </div>
             </div>
           )

@@ -5,8 +5,8 @@ function Trusted_partners() {
   return (
     <div className='trusted_partners'>
        <div className='trusted_partners_heading'>
-       <h2>Trusted Partners</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+       <h2 data-aos="fade-left">Trusted Partners</h2>
+        <p data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
        </div>
         <div className='platform_icons'>
           {
