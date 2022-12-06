@@ -13,6 +13,7 @@ function Cardreuse({ id, suscriber, platform, icon, influencer_name, dec, color}
                <p className='dec'>{dec}</p>
                <div className='effect'></div>
              </div>
+             
              )
 }
 
