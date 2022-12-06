@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import Cardreuse from './Cardreuse'
+import Cardreuse from './Influencer_details'
 import { influencer_information } from '../Utility/Cards'
 function Influencer_info() {
   return (
@@ -16,6 +16,7 @@ function Influencer_info() {
                 <Cardreuse key={id} suscriber={suscriber} platform={platform} icon={icon} influencer_name={influencer_name} dec={dec} color={color} />
               )
             })
+            
           }
 
         </div>

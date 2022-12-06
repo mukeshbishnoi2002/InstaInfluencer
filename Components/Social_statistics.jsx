@@ -1,5 +1,5 @@
 import React from 'react'
-import Cardreuse from './Cardreuse'
+import Cardreuse from './Influencer_details'
 import Image from 'next/image'
 import { Social_statistics_information } from '../Utility/Cards'
 function Social_statistics() {
