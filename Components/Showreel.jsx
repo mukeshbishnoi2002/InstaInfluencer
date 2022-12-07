@@ -14,7 +14,7 @@ function Showreel() {
           </div>
         </div>
       </div>
-      <div className='showreel_card_second' data-aos="fade-left">
+      <div className='showreel_card_second' data-aos="fade-down">
         <Image src="/Images/video-img.jpg" width={538} height={350} alt="video-img" className='video-img'></Image>
       </div>
     </div>

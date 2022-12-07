@@ -22,7 +22,7 @@ function Influencer_info() {
           }
 
         </div>
-        <Image src="/Images/insta-shape1.png" width={400} height={400} className="cards_background_effect" alt='influencer' data-aos="fade-right"></Image>
+        <Image src="/Images/insta-shape1.png" width={400} height={400} className="cards_background_effect" alt='influencer' data-aos="fade-down"></Image>
       </div>
 
     </div>

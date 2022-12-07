@@ -17,16 +17,8 @@ function Home() {
    <>
        <Header />
         <Hero />
-   <Influencer_info />
-         <Influencer_about_me />
-       
-       
-        
-
-       
-       
-     
-       
+        <Influencer_info />
+        <Influencer_about_me />
         <Social_statistics />
         <Audience />
         <Trusted_partners />
@@ -35,6 +27,17 @@ function Home() {
         <Latest_insights />
         <Footer />
         <Footer_sub />  
+   {/* 
+         
+       
+       
+        
+
+       
+       
+     
+       
+         */}
    </>
   )
 }

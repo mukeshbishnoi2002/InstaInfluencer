@@ -278,12 +278,12 @@
   }
 
   .latest_inside_card_container {
-    gap: 80px;
+    gap: 126px;
   }
 
   .latest_inside_inner_card {
     width: 100%;
-    top: 100%;
+    top: 85%;
     left: 0;
     padding: 15px;
   }

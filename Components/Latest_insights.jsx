@@ -14,7 +14,7 @@ function Latest_insights() {
             return (
               <div className='latest_inside_card' key={key}>
                 <Image src={img} width={310} height={385} alt="latest_inside" className='latest_inside_image' data-aos="fade-right"></Image>
-                <div className='latest_inside_inner_card' data-aos="fade-left">
+                <div className='latest_inside_inner_card' data-aos="fade-down">
                   <p>{post_type}, {post_style} - {post_uplaod_time}</p>
                   <h2>{title}</h2>
                 </div>

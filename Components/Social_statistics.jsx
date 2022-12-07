@@ -6,8 +6,8 @@ function Social_statistics() {
   return (
     <div className='social_statistics'>
       <div className='social_statistics_info'>
-        <h1 className='social_statistics_heading' data-aos="fade-left">Social Statistics</h1>
-        <p className='social_statistics_heading_p' data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h1 className='social_statistics_heading' data-aos="fade-right">Social Statistics</h1>
+        <p className='social_statistics_heading_p' data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div className='social_statistics_card'>
           {
             Social_statistics_information.map((items, key) => {
@@ -18,7 +18,7 @@ function Social_statistics() {
             })
           }
         </div>
-        <Image src="/Images/insta-shape1.png" width={400} height={400} className="cards_background_effect" alt='social_statistics_shape' data-aos="fade-right"></Image>
+        <Image src="/Images/insta-shape1.png" width={400} height={400} className="cards_background_effect" alt='social_statistics_shape' data-aos="fade-down"></Image>
       </div>
     </div>
   )

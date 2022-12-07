@@ -13,11 +13,11 @@ function Influencer_about_me() {
             </div>
             <div className='Influencer_about_me_card_two'>
                 <p data-aos="fade-down">ABOUT ME</p>
-                <h1 data-aos="fade-left" data-aos-delay="100">I'm a Instagram influencer designer running my own design</h1>
-                <p data-aos="fade-left" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.<br /><br />
+                <h1 data-aos="fade-right" data-aos-delay="100">I'm a Instagram influencer designer running my own design</h1>
+                <p data-aos="fade-right" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.<br /><br />
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                    <div className='one' >
-                        <button>Contact Me</button>
+                    <div className='one' data-aos="fade-down">
+                        <button >Contact Me</button>
                         <span><Link href="#">hello@alikamaya.com</Link> </span>
                     </div>
             </div>
