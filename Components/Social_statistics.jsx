@@ -10,10 +10,10 @@ function Social_statistics() {
         <p className='social_statistics_heading_p' data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div className='social_statistics_card'>
           {
-            Social_statistics_information.map((items, index) => {
+            Social_statistics_information.map((items, key) => {
               const { id, suscriber, platform, icon, influencer_name, dec } = items;
               return (
-                <Cardreuse id={id} suscriber={suscriber} platform={platform} icon={icon} influencer_name={influencer_name} dec={dec} />
+                <Cardreuse id={id} key={key} suscriber={suscriber} platform={platform} icon={icon} influencer_name={influencer_name} dec={dec} />
               )
             })
           }

@@ -10,12 +10,12 @@ function Influencer_info() {
         <h1 className='influencer_info_heading' data-aos="fade-right">I'm a Instagram influencer designer running my own design studio</h1>
         <div className='influencer_card'>
           {
-            influencer_information.map((items, index) => {
+            influencer_information.map((items, key) => {
               const { id, suscriber, platform, icon, influencer_name, dec, color } = items;
               
 
               return (
-                <Cardreuse id={id} suscriber={suscriber} platform={platform} icon={icon} influencer_name={influencer_name} dec={dec} color={color}/>
+                <Cardreuse id={id} key={key} suscriber={suscriber} platform={platform} icon={icon} influencer_name={influencer_name} dec={dec} color={color}/>
               )
             })
             

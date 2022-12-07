@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+
+
 function Hero() {
 
   return (
@@ -16,6 +18,7 @@ function Hero() {
         <Image src="/Images/background.png" height={610} width={480} className="hero_im" alt="hero" data-aos="fade-down"></Image>
         </div>
       </div>
+      
     </>
   )
 }
