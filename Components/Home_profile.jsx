@@ -15,10 +15,18 @@ import Footer_sub from './Footer_sub'
 function Home() {
   return (
    <>
-        <Header />
+       <Header />
         <Hero />
-       <Influencer_info />
-        <Influencer_about_me />
+   <Influencer_info />
+         <Influencer_about_me />
+       
+       
+        
+
+       {/*
+       
+     
+       
         <Social_statistics />
         <Audience />
         <Trusted_partners />
@@ -26,7 +34,7 @@ function Home() {
         <Build_business />
         <Latest_insights />
         <Footer />
-        <Footer_sub /> 
+        <Footer_sub />   */}
    </>
   )
 }

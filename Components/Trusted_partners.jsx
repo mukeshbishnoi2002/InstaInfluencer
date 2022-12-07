@@ -11,7 +11,7 @@ function Trusted_partners() {
         <div className='platform_icons'>
           {
             Trusted_platform_icons.map((items , index)=>{
-          return (<div key={items.id}><Image src={items.icon} width={180} height={60} alt="insta-partner" className='insta-partner_images'></Image></div>)
+          return (<div key={items.id}><Image src={items.icon} width={180} height={60} alt="insta-partner" className='insta-partner_images' data-aos="zoom-in-up"></Image></div>)
 
             })
           }

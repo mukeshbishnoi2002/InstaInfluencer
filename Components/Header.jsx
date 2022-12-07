@@ -1,6 +1,8 @@
-import React from 'react'
+
+import React, { useEffect } from 'react'
 
 function Header() {
+  
   return (
     <div className='main_header'>
         <div className='nav'>
@@ -15,6 +17,7 @@ function Header() {
             </ul>
         </div>
     </div>
+   
   )
 }
 
