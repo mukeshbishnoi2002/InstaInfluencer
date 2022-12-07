@@ -23,7 +23,7 @@ function Home() {
        
         
 
-       {/*
+       
        
      
        
@@ -34,7 +34,7 @@ function Home() {
         <Build_business />
         <Latest_insights />
         <Footer />
-        <Footer_sub />   */}
+        <Footer_sub />  
    </>
   )
 }
