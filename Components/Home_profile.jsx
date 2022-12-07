@@ -17,7 +17,7 @@ function Home() {
    <>
         <Header />
         <Hero />
-        {/* <Influencer_info />
+       <Influencer_info />
         <Influencer_about_me />
         <Social_statistics />
         <Audience />
@@ -26,7 +26,7 @@ function Home() {
         <Build_business />
         <Latest_insights />
         <Footer />
-        <Footer_sub /> */}
+        <Footer_sub /> 
    </>
   )
 }
