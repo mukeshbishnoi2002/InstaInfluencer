@@ -21,6 +21,9 @@ body {
 
 /* ============================================================================ */
 /* ============================== nav bar ============================================== */
+.main_header{
+  transition:all 1s;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -46,6 +49,14 @@ body {
 
 .nav li:first-child {
   color: #fc1c62;
+}
+.stick{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: white;
 }
 
 /* ============================== nav bar End ============================================== */
@@ -105,7 +116,11 @@ body {
 .hero_im {
   padding-top: 50px;
   z-index: 1;
+  transition: all 0.9s;
+
 }
+
+
 
 .hero_content input {
   padding: 18px;
@@ -125,6 +140,60 @@ body {
   font-size: 16px;
   border-top-right-radius: 40px;
   border: none;
+}
+.heroPopup{
+  height: 90%;
+  width: 60%;
+  position: absolute;
+  font-size:18px;
+  top: 9%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0 ,0.8);
+  z-index: 9999;
+  padding:20px; 
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  
+  }
+ 
+.popup_heading{
+color:#FF0000;
+letter-spacing:0.8px;
+margin-top:10px;
+font-size:24px; 
+}
+.popup_job{
+  color: white;
+margin-top:20px; 
+}
+.popup_job_sub{
+  color:#FF00FF;
+  font-size:20px; 
+}
+.popup_suscriber, .popup_platform, .popup_icons, .popup_special_thing, .popup_special_thing_ul{
+ margin-top:8px;
+ list-style: none;
+}
+.popup_suscriber{
+  color: white;
+}
+.popup_suscriber_sub{
+ color:#884EA0;
+}
+.popup_platform_sub{
+color:#1F618D;
+}
+.popup_icons i{
+font-size: 17px;
+color: green;
+}
+.popup_special_sub{
+color:#148F77;
+}
+.popup_special_thing_ul li{
+  font-size: 17px;
+  margin-top: 6px;
+  color:#9C640C;
 }
 
 /* ============================== Hero End ============================================== */

@@ -1,11 +1,24 @@
 
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 
 function Header() {
-  
+  const navBarFixed = useRef(null)
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    // return () => window.removeEventListener("scroll", handleScroll);
+  });
+
+  const handleScroll = () => {
+    if(window.scrollY >= 200){
+      navBarFixed.current.classList.add("stick")
+    }
+    else{
+      navBarFixed.current.classList.remove("stick")
+    }
+  };
   return (
-    <div className='main_header'>
-        <div className='nav'>
+    <div className='main_header ' ref={navBarFixed}>
+        <div className='nav '>
             <h2>Influencer</h2>
             <ul>
                 <li>Home</li>
